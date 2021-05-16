@@ -1,0 +1,33 @@
+#main {
+  width:100%;
+  height:100%;
+  position:fixed;
+  top:0;
+  left:0;
+  background:grey;
+}
+#topbar {
+  width:100%;
+  height:5rem;
+  background-color:rgba(0, 0, 0, 0.4);
+  position:fixed;
+  left:0;
+  top:0;
+  color:white;
+}
+#topbar h2 {
+  font-size:2rem;
+  position:absolute;
+  left:1rem;
+  top:-0.2rem;
+}
+#topbar div {
+  width:auto;
+  height:2.5rem;
+  position:absolute;
+  top: calc(50% - 1.5rem);
+  left:5rem;
+  font-size:1.5rem;
+  text-decoration:none;
+  color:white;
+}
